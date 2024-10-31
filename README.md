@@ -1,1 +1,31 @@
 # predicting_student_success
+
+- Darryn Johnson
+- Instructor : Mark Barbour
+- Date : 10/30/2024
+- Blog :
+- Link to repository :
+- Link to notebook :
+- Link to Presentation :
+- Link to original dataset : 
+
+## Overview 
+
+In this repository, we look into a dataframe containing 4,424 entries with 37 columns. Each row represents an individual, with each corresponding column containing the socio-economic, demographic and academic factors for each person. The target in this data is `graduate`, `dropout` and `enrolled`. For the purpose of this project, enrolled will not be used in the mmodeling process, as it does not assist with the problem we are aiming to solve. 
+
+## Data Distribution 
+
+![Screenshot 2024-10-30 170054](https://github.com/user-attachments/assets/ea76ff87-f5d2-45f0-ac3b-430f7773c32e)
+
+Here we see that a majority of the individuals here have graduated, with droupout trailing close behined. As mentioned above, enrolled does not pertain to the problem at hand.
+
+## Modeling 
+
+There are a few pre-modeling steps that had to be taken care of before the data can be run through a model. A very important step for this specifc dataset was decoding the data. The data was coded using numbers to represent what the value is. This would cause the model not to pick up on what we actully want it to, and output meaningless data. Some other model preparation included label encoding, i.e. turning the target into binary values, one-hot encoding which allows the model to see each metric as a binary value, and oversampling/undersampling if needed. For the actual modeling process, `RandomForestClassifier`  was chosen to be the main contender, as it is easy to use and understand, requires not much pre-processng, and worked well for the problemm at hand.
+
+## Evaluation
+
+To evaluate this model, we will be primarily using the metric `precision`. `Precision` is the measurement of `false positives`. This is an imporntant metric to watch as false positives is when the model says a student will graduate, when in reality they are more likely to dropout. This is an issue for loan offices becuase this creates a situation where a loan is given to a student that may not be able to pay it off, due to not getting the job they wanted. This results in not getting the loan returned. Tovalidate the model we will be using `train_test_split` to create train data and test data. 
+
+# Conclusion 
+
