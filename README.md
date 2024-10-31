@@ -1,4 +1,4 @@
-# predicting_student_success
+# Predicting Student Success
 
 - Darryn Johnson
 - Instructor : Mark Barbour
