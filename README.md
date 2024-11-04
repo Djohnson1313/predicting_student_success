@@ -8,7 +8,7 @@
 - Blog :
 - Link to repository :[predicting_student_success](https://github.com/Djohnson1313/predicting_student_success)
 - Link to notebook :[predicting_student_success_notebook](https://github.com/Djohnson1313/predicting_student_success/blob/main/predicting_student_success_notebook.ipynb)
-- Link to Presentation :[predicting_student_success.pdf](https://github.com/Djohnson1313/predicting_student_success/blob/main/prediciting_student_success.pdf)
+- Link to Presentation :[predicting_student_success.pdf](https://github.com/Djohnson1313/predicting_student_success/blob/main/prediciting_student_success_presentation.pdf)
 - Link to original dataset : [predict student dropout and academic success](https://www.kaggle.com/datasets/syedfaizanalii/predict-students-dropout-and-academic-success)
 
 ## Overview 
@@ -47,6 +47,6 @@ If you are running google colab, you have no additional tasks to complete other 
 ├── Predict Student Dropout and Academic Success.csv
 ├── README.md
 ├── dataset_metadata.ipynb
-├── predicting_student_success.pdf
+├── predicting_student_success_presentation.pdf
 └── predicting_student_success_notebook.ipynb
 ```
