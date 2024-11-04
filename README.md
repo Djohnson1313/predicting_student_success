@@ -6,10 +6,10 @@
 - Instructor : Mark Barbour
 - Date : 10/30/2024
 - Blog :
-- Link to repository :
-- Link to notebook :
-- Link to Presentation :
-- Link to original dataset : 
+- Link to repository :[predicting_student_success](https://github.com/Djohnson1313/predicting_student_success)
+- Link to notebook :[predicting_student_success_notebook](https://github.com/Djohnson1313/predicting_student_success/blob/main/predicting_student_success_notebook.ipynb)
+- Link to Presentation :[predicting_student_success.pdf](https://github.com/Djohnson1313/predicting_student_success/blob/main/prediciting_student_success.pdf)
+- Link to original dataset : [predict student dropout and academic success](https://www.kaggle.com/datasets/syedfaizanalii/predict-students-dropout-and-academic-success)
 
 ## Overview 
 
@@ -40,3 +40,12 @@ In this quick section, we will be going over how to reproduce the same results s
 - ensure you have the respective packages also downloaded as noted in imports. These downloads/instructions can be found by searching the name online.
 - the data downloaded either from the links in the `Sources and Links` section in the notebook or using google colab.
 If you are running google colab, you have no additional tasks to complete other than potentially having to rename the data to match what is in the project. If so, follow the instructions in the notebook.
+
+## Repository Structure
+
+├── .gitignore
+├── Predict Student Dropout and Academic Success.csv
+├── README.md
+├── dataset_metadata.ipynb
+├── predicting_student_success.pdf
+└── predicting_student_success_notebook.ipynb
