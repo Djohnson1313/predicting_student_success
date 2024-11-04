@@ -1,3 +1,5 @@
+
+
 # Predicting Student Success
 
 - Darryn Johnson
@@ -11,7 +13,7 @@
 
 ## Overview 
 
-In this repository, we look into a dataframe containing 4,424 entries with 37 columns. Each row represents an individual, with each corresponding column containing the socio-economic, demographic and academic factors for each person. The target in this data is `graduate`, `dropout` and `enrolled`. For the purpose of this project, enrolled will not be used in the mmodeling process, as it does not assist with the problem we are aiming to solve. 
+In this repository, we look into a dataframe containing 4,424 entries with 37 columns. Each row represents an individual, with each corresponding column containing the socio-economic, demographic and academic factors for each person. The target in this data is `graduate`, `dropout` and `enrolled`. For the purpose of this project, enrolled will not be used in the modeling process, as it does not assist with the problem we are aiming to solve. The problem we are aiming to solve is loan companies loaning money to students who are unlikely to return the loan, due to them not graduating. The model created in this notebook has a 91% precision score, which is good since we want to have a low false positive rate.
 
 ## Data Distribution 
 
@@ -25,7 +27,8 @@ There are a few pre-modeling steps that had to be taken care of before the data 
 
 ## Evaluation
 
-To evaluate this model, we will be primarily using the metric `precision`. `Precision` is the measurement of `false positives`. This is an imporntant metric to watch as false positives is when the model says a student will graduate, when in reality they are more likely to dropout. This is an issue for loan offices becuase this creates a situation where a loan is given to a student that may not be able to pay it off, due to not getting the job they wanted. This results in not getting the loan returned. Tovalidate the model we will be using `train_test_split` to create train data and test data. 
+To evaluate this model, we will be primarily using the metric `precision`. `Precision` is the measurement of `false positives`. This is an imporntant metric to watch as false positives is when the model says a student will graduate, when in reality they are more likely to dropout. This is an issue for loan offices becuase this creates a situation where a loan is given to a student that may not be able to pay it off, due to not getting the job they wanted. This results in not getting the loan returned. To validate the model we will be using `train_test_split` to create train data and test data. 
 
 # Conclusion 
 
+The chosen model performed well, with a precision score of 91%. Precision is the measurment of the false positive rate. This is important to us as a loan company, because to get a return on the loan, the individual has to actually be capable of returning it. This is unlikely if they do not graduate. Having a good precision score means that students who are thought to be able to graduate, but actually are unnliekly too, are reduced to a minimum within our company ecosystem
