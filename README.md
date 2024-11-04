@@ -10,6 +10,7 @@
 - Link to notebook :[predicting_student_success_notebook](https://github.com/Djohnson1313/predicting_student_success/blob/main/predicting_student_success_notebook.ipynb)
 - Link to Presentation :[predicting_student_success.pdf](https://github.com/Djohnson1313/predicting_student_success/blob/main/prediciting_student_success_presentation.pdf)
 - Link to original dataset : [predict student dropout and academic success](https://www.kaggle.com/datasets/syedfaizanalii/predict-students-dropout-and-academic-success)
+- Link to header image : [File:IB Graduation Ceremony at LIS.jpg](https://commons.wikimedia.org/wiki/File:IB_Graduation_Ceremony_at_LIS.jpg)
 
 ## Business Understanding 
 
