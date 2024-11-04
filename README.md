@@ -11,7 +11,7 @@
 - Link to Presentation :[predicting_student_success.pdf](https://github.com/Djohnson1313/predicting_student_success/blob/main/prediciting_student_success_presentation.pdf)
 - Link to original dataset : [predict student dropout and academic success](https://www.kaggle.com/datasets/syedfaizanalii/predict-students-dropout-and-academic-success)
 
-## Overview 
+## Business Understanding 
 
 In this repository, we look into a dataframe containing 4,424 entries with 37 columns. Each row represents an individual, with each corresponding column containing the socio-economic, demographic and academic factors for each person. The target in this data is `graduate`, `dropout` and `enrolled`. For the purpose of this project, enrolled will not be used in the modeling process, as it does not assist with the problem we are aiming to solve. The problem we are aiming to solve is loan companies loaning money to students who are unlikely to return the loan, due to them not graduating. The model created in this notebook has a 91% precision score, which is good since we want to have a low false positive rate.
 
