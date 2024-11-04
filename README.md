@@ -1,4 +1,4 @@
-
+![grad pic](https://github.com/user-attachments/assets/0db9bf96-236b-4e58-af9d-6d95ce468881)
 
 # Predicting Student Success
 
@@ -32,3 +32,11 @@ To evaluate this model, we will be primarily using the metric `precision`. `Prec
 # Conclusion 
 
 The chosen model performed well, with a precision score of 91%. Precision is the measurment of the false positive rate. This is important to us as a loan company, because to get a return on the loan, the individual has to actually be capable of returning it. This is unlikely if they do not graduate. Having a good precision score means that students who are thought to be able to graduate, but actually are unnliekly too, are reduced to a minimum within our company ecosystem
+
+# Reproducibility
+In this quick section, we will be going over how to reproduce the same results shown in this notebook. A few key elements needed to run locally on your system are as follows:
+
+- download python off of [Python.org](https://www.python.org/downloads/)
+- ensure you have the respective packages also downloaded as noted in imports. These downloads/instructions can be found by searching the name online.
+- the data downloaded either from the links in the `Sources and Links` section in the notebook or using google colab.
+If you are running google colab, you have no additional tasks to complete other than potentially having to rename the data to match what is in the project. If so, follow the instructions in the notebook.
