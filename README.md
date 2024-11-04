@@ -42,10 +42,11 @@ In this quick section, we will be going over how to reproduce the same results s
 If you are running google colab, you have no additional tasks to complete other than potentially having to rename the data to match what is in the project. If so, follow the instructions in the notebook.
 
 ## Repository Structure
-
+```
 ├── .gitignore
 ├── Predict Student Dropout and Academic Success.csv
 ├── README.md
 ├── dataset_metadata.ipynb
 ├── predicting_student_success.pdf
 └── predicting_student_success_notebook.ipynb
+```
