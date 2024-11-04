@@ -31,7 +31,7 @@ To evaluate this model, we will be primarily using the metric `precision`. `Prec
 
 # Conclusion 
 
-The chosen model performed well, with a precision score of 91%. Precision is the measurment of the false positive rate. This is important to us as a loan company, because to get a return on the loan, the individual has to actually be capable of returning it. This is unlikely if they do not graduate. Having a good precision score means that students who are thought to be able to graduate, but actually are unnliekly too, are reduced to a minimum within our company ecosystem
+The chosen model performed well, with a precision score of 91%. Precision is the measurment of the false positive rate. This is important to us as a loan company, because to get a return on the loan, the individual has to actually be capable of returning it. This is unlikely if they do not graduate. Having a good precision score means that students who are thought to be able to graduate, but actually are unlikely too, are reduced to a minimum within our company ecosystem
 
 # Reproducibility
 In this quick section, we will be going over how to reproduce the same results shown in this notebook. A few key elements needed to run locally on your system are as follows:
