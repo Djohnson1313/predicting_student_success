@@ -10,6 +10,7 @@
 - Link to notebook :[predicting_student_success_notebook](https://github.com/Djohnson1313/predicting_student_success/blob/main/predicting_student_success_notebook.ipynb)
 - Link to Presentation :[predicting_student_success.pdf](https://github.com/Djohnson1313/predicting_student_success/blob/main/prediciting_student_success_presentation.pdf)
 - Link to original dataset : [predict student dropout and academic success](https://www.kaggle.com/datasets/syedfaizanalii/predict-students-dropout-and-academic-success)
+- Link to header image : [File:IB Graduation Ceremony at LIS.jpg](https://commons.wikimedia.org/wiki/File:IB_Graduation_Ceremony_at_LIS.jpg)
 
 ## Business Understanding 
 
@@ -31,7 +32,7 @@ To evaluate this model, we will primarily be using the metric `precision`. `Prec
 
 # Conclusion 
 
-The chosen model performed well, with a precision score of 91%. Precision is the measurment of the false positive rate. This is important to us as a loan company, because to get a return on the loan, the individual has to actually be capable of returning it. This is unlikely if they do not graduate. Having a good precision score means that students who are thought to be able to graduate, but actually are unlikely too, are reduced to a minimum within our company ecosystem
+The chosen model performed well, with a precision score of 91%. While the neural network this model was put up against did perform well, it was beaten out by about 4%. Just because an individual is marked as potentially `dropout`, does not mean the end of their potential to be a customer of ours. A good way to capitalize on an individual marked as so, is to partner with a tutoring company that we can recommend  them to. This allows them to make some adjustments they need to succed, and potentially still get a loan with us.
 
 ## Reproducibility
 In this quick section, we will be going over how to reproduce the same results shown in this notebook. A few key elements needed to run locally on your system are as follows:
