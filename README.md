@@ -5,7 +5,7 @@
 - Darryn Johnson
 - Instructor : Mark Barbour
 - Date : 10/30/2024
-- Blog :
+- Blog :[A La Fin](https://datascienceandyou.blogspot.com/2024/11/a-la-fin.html)
 - Link to repository :[predicting_student_success](https://github.com/Djohnson1313/predicting_student_success)
 - Link to notebook :[predicting_student_success_notebook](https://github.com/Djohnson1313/predicting_student_success/blob/main/predicting_student_success_notebook.ipynb)
 - Link to Presentation :[predicting_student_success.pdf](https://github.com/Djohnson1313/predicting_student_success/blob/main/prediciting_student_success_presentation.pdf)
